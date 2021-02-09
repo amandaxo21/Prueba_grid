@@ -1,0 +1,29 @@
+* {
+    box-sizing: 0;
+    padding: 0;
+    margin: 0%;
+}
+.html {
+    font-size: 62.2%;
+}
+.content_primary {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);    
+}
+.item {
+    background-color: aqua;
+    padding: 10px;
+    border: 1px solid red;    
+}
+.image_styles {      
+    flex-grow: 1; 
+    width: inherit;  
+    max-width: 70%; 
+    height: auto;
+    margin-top: 20%;
+    margin-left: 20%;
+}
+.template_image {
+    border: 1px solid red;    
+    
+}
